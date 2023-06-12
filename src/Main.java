@@ -10,6 +10,7 @@ class MyCustomException extends Exception {
 
 public class Main {
     public static void divideInt(int i, int j) throws MyCustomException {
+        //changes
         if (j == 0) {
             throw new MyCustomException("Cannot divide by zero.");
         }
